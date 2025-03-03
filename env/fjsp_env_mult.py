@@ -144,7 +144,7 @@ class FJSPEnvForSameOpNums:
 
         self.flag_exist_dummy_node = ~(self.env_number_of_ops == self.max_number_of_ops).all()
 
-    def set_initial_data(self, data=None):
+    def set_initial_data(self, model='train', data=None):
         """
             initialize the data of the instances
 
